@@ -1,0 +1,37 @@
+t=2019-08-28T11:04:12+0800 lvl=warn msg="XChainCore Subscribe events failed" module=xchain error="Invalid Params" failedTypes=[]
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:13+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:13+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:15+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:15+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:18+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:18+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:21+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:21+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:24+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:24+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:27+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:27+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"

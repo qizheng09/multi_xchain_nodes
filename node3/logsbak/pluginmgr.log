@@ -1,0 +1,10 @@
+t=2019-08-27T22:14:09+0800 lvl=trce msg="Plugin conf load successfully!" module=pluginmgr pluginCount=7
+t=2019-08-27T22:14:09+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=crypto subtype=default
+t=2019-08-27T22:14:09+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=kv subtype=default
+t=2019-08-27T22:14:09+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=kv subtype=default
+t=2019-08-27T22:14:09+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=consensus subtype=tdpos
+t=2019-08-28T10:55:34+0800 lvl=trce msg="Plugin conf load successfully!" module=pluginmgr pluginCount=7
+t=2019-08-28T10:55:34+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=crypto subtype=default
+t=2019-08-28T10:55:34+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=kv subtype=default
+t=2019-08-28T10:55:34+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=kv subtype=default
+t=2019-08-28T10:55:34+0800 lvl=trce msg="Load a plugin successfully" module=pluginmgr name=consensus subtype=tdpos

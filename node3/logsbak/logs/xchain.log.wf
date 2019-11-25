@@ -1,0 +1,5 @@
+t=2019-08-28T11:03:22+0800 lvl=eror msg="Connection with peer node error!" module=xchain error="dial attempt failed: <peer.ID Qm*8AjRaS> --> <peer.ID Qm*gsaB1c> dial attempt failed: dial tcp4 127.0.0.1:47102: connect: connection refused"
+t=2019-08-28T11:03:23+0800 lvl=eror msg="Connection with peer node error!" module=xchain error="dial backoff"
+t=2019-08-28T11:03:24+0800 lvl=eror msg="Connection with peer node error!" module=xchain error="dial backoff"
+t=2019-08-28T11:03:25+0800 lvl=eror msg="Connection with peer node error!" module=xchain error="dial backoff"
+t=2019-08-28T11:03:26+0800 lvl=eror msg="Connection with peer node error!" module=xchain error="dial backoff"

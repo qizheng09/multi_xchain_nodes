@@ -1,0 +1,49 @@
+# node config
+# 日志配置
+log:
+# 模块名称
+  module: xchain
+# 日志目录
+  filepath: logs
+# 日志文件名
+  filename: xchain
+  fmt: logfmt
+# 是否打印命令行工具端口
+  console: true
+# 日志等级
+  level : trace
+
+# RPC 服务暴露的端口
+tcpServer:
+  port: :37106
+
+# 区块链节点配置
+p2p:
+  # RPC 客户端访问超时时间
+  timeout: 10
+  isSeed: false
+  nat: none
+  maxBroadNum: 4
+  maxDeadCnt: 4
+  staticNodes:
+    - "xnode://Y4TmpfV4pvhYT5W17J7TqHSLo6cqq23x3761a470c-a882-4eb3-a2a0-8442db826a40@127.0.0.1:37101?address=Y4TmpfV4pvhYT5W17J7TqHSLo6cqq23x3"
+    - "xnode://RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph54b097bf-ac7b-440a-969f-d833c0c84df9@127.0.0.1:37104?address=RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph"
+    - "xnode://nEm7kPvfYpHn35EWFvh3VjGcwMZRuxtnJ9f838848-a776-4d87-964d-39501004f83b@127.0.0.1:37105?address=nEm7kPvfYpHn35EWFvh3VjGcwMZRuxtnJ"
+    - "xnode://S2w7Dj4kFK8wkmxKNgjoAG45XQQapExw72763d66a-002a-4b31-9ba4-1b6ff43f99ca@127.0.0.1:37106?address=S2w7Dj4kFK8wkmxKNgjoAG45XQQapExw7"
+    - "xnode://ipEj9Z9UDmRdCWWSBbBiYGeB6SoXGh6BG28ac0b9b-e27b-4189-9566-729adca9b633@127.0.0.1:37107?address=ipEj9Z9UDmRdCWWSBbBiYGeB6SoXGh6BG"
+  seeds:
+    - "xnode://f3prTg9itaZY6m48wXXikXdcxiByW7zgk34390982-5283-4c6d-92ed-3e7198f037e2@127.0.0.1:37102?address=f3prTg9itaZY6m48wXXikXdcxiByW7zgk"
+miner:
+# 是否是主节点
+  master: false
+# 密钥存储路径
+  keypath: ./data/keys
+
+# 数据存储路径
+datapath: ./data/blockchain
+
+utxo:
+# utxo的内存LRUCache大小，默认5000个address
+  cachesize: 5000
+# GenerateTx的临时锁定期限，默认是60秒
+  tmplockSeconds: 60

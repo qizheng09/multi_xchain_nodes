@@ -1,0 +1,42 @@
+# node config
+# 日志配置
+log:
+# 模块名称
+  module: xchain
+# 日志目录
+  filepath: logs
+# 日志文件名
+  filename: xchain
+  fmt: logfmt
+# 是否打印命令行工具端口
+  console: false
+# 日志等级
+  level : trace
+
+# RPC 服务暴露的端口
+tcpServer:
+  port: :37105
+
+# 区块链节点配置
+p2pV2:
+  port: 47105
+  bootNodes:
+    - "/ip4/127.0.0.1/tcp/47101/p2p/QmVxeNubpg1ZQjQT8W5yZC9fD7ZB1ViArwvyGUB53sqf8e"
+miner:
+# 是否是主节点
+  master: false
+# 密钥存储路径
+  keypath: ./data/keys
+
+# 数据存储路径
+datapath: ./data/blockchain
+
+utxo:
+# utxo的内存LRUCache大小，默认5000个address
+  cachesize: 5000
+# GenerateTx的临时锁定期限，默认是60秒
+  tmplockSeconds: 60
+  rightsPair:
+    - tdpos:
+      - vote: revoke_vote
+      - nominate_candidate: revoke_candidate  

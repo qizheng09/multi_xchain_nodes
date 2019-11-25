@@ -1,0 +1,8 @@
+{
+  "module": "tdpos",
+  "method": "nominate_candidate",
+  "args": {
+    "candidate": "U9sKwFmgJVfzgWcfAG47dKn1kLQTqeZN3",
+    "neturl": "/ip4/127.0.0.1/tcp/47103/p2p/QmPYPuXsNXYRfVyr6FsingX8gwFW3FwgJDtuJW1iYugwJn"
+    }
+}

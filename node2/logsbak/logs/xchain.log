@@ -1,0 +1,183 @@
+t=2019-08-28T11:04:12+0800 lvl=info msg="debug info" module=xchain root host=
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Hello BlockChain" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="register stopping handler" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Stop to Register Subscriber" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=info msg="Start p2pv2 server!" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Start node" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="--------find xuper" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=info msg="ledger meta" module=xchain genesis_block=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 tip_block=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 trunk_height=0
+t=2019-08-28T11:04:12+0800 lvl=warn msg="XChainCore Subscribe events failed" module=xchain error="Invalid Params" failedTypes=[]
+t=2019-08-28T11:04:12+0800 lvl=info msg="set max confirmed delay of tx" module=xchain seconds=300
+t=2019-08-28T11:04:12+0800 lvl=trce msg=initProposer module=xchain initProposer="map[1:[f3prTg9itaZY6m48wXXikXdcxiByW7zgk U9sKwFmgJVfzgWcfAG47dKn1kLQTqeZN3 RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph]]"
+t=2019-08-28T11:04:12+0800 lvl=trce msg="TDpos after config" module=xchain TTDpos.config="{proposerNum:3 period:3000000000 alternateInterval:3000000000 termInterval:6000000000 blockNum:20 voteUnitPrice:0xc00000ed60 initProposer:map[1:[0xc00000ee60 0xc00000ee80 0xc00000ef00]] needNetURL:false enableBFT:true bftConfig:0xc000360340}"
+t=2019-08-28T11:04:12+0800 lvl=trce msg=Configure module=xchain TDpos="&{config:{proposerNum:3 period:3000000000 alternateInterval:3000000000 termInterval:6000000000 blockNum:20 voteUnitPrice:0xc00000ed60 initProposer:map[1:[0xc00000ee60 0xc00000ee80 0xc00000ef00]] needNetURL:false enableBFT:true bftConfig:0xc000360340} version:0 height:0 log:{Logger:0xc000313da0} bcname:xuper address:[102 51 112 114 84 103 57 105 116 97 90 89 54 109 52 56 119 88 88 105 107 88 100 99 120 105 66 121 87 55 122 103 107] ledger:0xc0003b4210 utxoVM:0xc0000a0380 initTimestamp:1566830669000000000 curTerm:0 curBlockNum:0 candidateBallots:0xc000446d50 candidateBallotsCache:0xc000446d80 curTermProposerProduceNumCache:map[] cryptoClient:0x579de28 revokeCache:0xc000446db0 isProduce:map[] context:0xc000446fc0 mutex:0xc00015e640 bftPaceMaker:0xc0000f8e60 p2psvr:0xc000180dc0}"
+t=2019-08-28T11:04:12+0800 lvl=trce msg=RegisterVAT module=xchain vathandler="&{HandlerList:[tdpos] Handlers:map[tdpos:0xc0003c05a0] WhiteList:map[tdpos:map[check_validater:true]] mutex:0xc00015e300}"
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Register Tdpos utxovm after updateTDPosConsensus" module=xchain name=Tdpos
+t=2019-08-28T11:04:12+0800 lvl=trce msg=RegisterVAT module=xchain vathandler="&{HandlerList:[tdpos Propose] Handlers:map[Propose:0xc0004a82d0 tdpos:0xc0003c05a0] WhiteList:map[Propose:map[] tdpos:map[check_validater:true]] mutex:0xc00015e300}"
+t=2019-08-28T11:04:12+0800 lvl=trce msg=RegisterVAT module=xchain vathandler="&{HandlerList:[tdpos consensus Propose] Handlers:map[Propose:0xc0004a82d0 consensus:0xc0004e8580 tdpos:0xc0003c05a0] WhiteList:map[Propose:map[] consensus:map[update_consensus:true] tdpos:map[check_validater:true]] mutex:0xc00015e300}"
+t=2019-08-28T11:04:12+0800 lvl=trce msg=RegisterVAT module=xchain vathandler="&{HandlerList:[tdpos kernel consensus Propose] Handlers:map[Propose:0xc0004a82d0 consensus:0xc0004e8580 kernel:0xc0000cfe00 tdpos:0xc0003c05a0] WhiteList:map[Propose:map[] consensus:map[update_consensus:true] kernel:map[UpdateMaxBlockSize:true] tdpos:map[check_validater:true]] mutex:0xc00015e300}"
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Start to Register Subscriber" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Stop to Register Subscriber" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="start chain xuper" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=info msg=Probe module=xchain number of goroutines=37
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain blockname=xuper try times=0
+t=2019-08-28T11:04:12+0800 lvl=info msg="XchainMg start loop to process net msg" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="start rpc server" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Server SendMessage with response" module=xchain logid=1566961452384338000_1_7818 msgType=GET_BLOCKCHAINSTATUS checksum=1523834664
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain bc=<nil> confirm=false
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain blockname=xuper try times=1
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Server SendMessage with response" module=xchain logid=1566961452407356000_2_5325 msgType=GET_BLOCKCHAINSTATUS checksum=1523834664
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain bc=<nil> confirm=false
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain blockname=xuper try times=2
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Server SendMessage with response" module=xchain logid=1566961452800652000_3_7668 msgType=GET_BLOCKCHAINSTATUS checksum=1523834664
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain bc=<nil> confirm=false
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain blockname=xuper try times=3
+t=2019-08-28T11:04:12+0800 lvl=trce msg="Server SendMessage with response" module=xchain logid=1566961452922530000_4_9334 msgType=GET_BLOCKCHAINSTATUS checksum=1523834664
+t=2019-08-28T11:04:12+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:12+0800 lvl=trce msg="sync blocks" module=xchain bc=<nil> confirm=false
+t=2019-08-28T11:04:13+0800 lvl=trce msg="sync blocks" module=xchain blockname=xuper try times=4
+t=2019-08-28T11:04:13+0800 lvl=trce msg="Server SendMessage with response" module=xchain logid=1566961453176192000_5_789 msgType=GET_BLOCKCHAINSTATUS checksum=1523834664
+t=2019-08-28T11:04:13+0800 lvl=warn msg="StreamPool SendMessageWithResponse lenCh is nil" module=xchain
+t=2019-08-28T11:04:13+0800 lvl=trce msg="sync blocks" module=xchain bc=<nil> confirm=false
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453358602000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453358602000 term=715 pos=2 blockPos=1
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453359272000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453359272000 term=715 pos=2 blockPos=1
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453359344000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453359344000 term=715 pos=2 blockPos=1
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:13+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=trce msg="CompeteMaster now xterm infos" module=xchain term=715 pos=2 blockPos=1 un2=1566961453359272000 master=false
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453359883000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:13+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961453359883000 term=715 pos=2 blockPos=1
+t=2019-08-28T11:04:13+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:13+0800 lvl=info msg=Minner module=xchain genesis=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 last=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 height=0 utxovm=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711
+t=2019-08-28T11:04:13+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:13+0800 lvl=info msg=Probe module=xchain number of goroutines=40
+t=2019-08-28T11:04:13+0800 lvl=info msg=Probe module=xchain number of goroutines=40
+t=2019-08-28T11:04:14+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:14+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:15+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961455001943000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:15+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961455001943000 term=715 pos=2 blockPos=2
+t=2019-08-28T11:04:15+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961455002044000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:15+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961455002044000 term=715 pos=2 blockPos=2
+t=2019-08-28T11:04:15+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:15+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:15+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=trce msg="CompeteMaster now xterm infos" module=xchain term=715 pos=2 blockPos=2 un2=1566961455001943000 master=false
+t=2019-08-28T11:04:15+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961455002434000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:15+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961455002434000 term=715 pos=2 blockPos=2
+t=2019-08-28T11:04:15+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:15+0800 lvl=info msg=Minner module=xchain genesis=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 last=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 height=0 utxovm=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711
+t=2019-08-28T11:04:15+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:15+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:15+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:16+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:16+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:17+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:17+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:18+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961458000421000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:18+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961458000421000 term=715 pos=2 blockPos=3
+t=2019-08-28T11:04:18+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961458000604000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:18+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961458000604000 term=715 pos=2 blockPos=3
+t=2019-08-28T11:04:18+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:18+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:18+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=trce msg="CompeteMaster now xterm infos" module=xchain term=715 pos=2 blockPos=3 un2=1566961458000421000 master=false
+t=2019-08-28T11:04:18+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961458001256000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:18+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961458001256000 term=715 pos=2 blockPos=3
+t=2019-08-28T11:04:18+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:18+0800 lvl=info msg=Minner module=xchain genesis=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 last=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 height=0 utxovm=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711
+t=2019-08-28T11:04:18+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:18+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:18+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:19+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:19+0800 lvl=info msg=Probe module=xchain number of goroutines=38
+t=2019-08-28T11:04:20+0800 lvl=info msg=Probe module=xchain number of goroutines=37
+t=2019-08-28T11:04:20+0800 lvl=info msg=Probe module=xchain number of goroutines=37
+t=2019-08-28T11:04:21+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961461000665000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:21+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961461000665000 term=715 pos=2 blockPos=4
+t=2019-08-28T11:04:21+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961461000920000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:21+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961461000920000 term=715 pos=2 blockPos=4
+t=2019-08-28T11:04:21+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:21+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:21+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=trce msg="CompeteMaster now xterm infos" module=xchain term=715 pos=2 blockPos=4 un2=1566961461000665000 master=false
+t=2019-08-28T11:04:21+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961461001920000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:21+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961461001920000 term=715 pos=2 blockPos=4
+t=2019-08-28T11:04:21+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:21+0800 lvl=info msg=Minner module=xchain genesis=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 last=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 height=0 utxovm=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711
+t=2019-08-28T11:04:21+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:21+0800 lvl=info msg=Probe module=xchain number of goroutines=37
+t=2019-08-28T11:04:21+0800 lvl=info msg=Probe module=xchain number of goroutines=37
+t=2019-08-28T11:04:22+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:22+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:23+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:23+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:24+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961464000402000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:24+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961464000402000 term=715 pos=2 blockPos=5
+t=2019-08-28T11:04:24+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961464000604000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:24+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961464000604000 term=715 pos=2 blockPos=5
+t=2019-08-28T11:04:24+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:24+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:24+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=trce msg="CompeteMaster now xterm infos" module=xchain term=715 pos=2 blockPos=5 un2=1566961464000402000 master=false
+t=2019-08-28T11:04:24+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961464001337000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:24+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961464001337000 term=715 pos=2 blockPos=5
+t=2019-08-28T11:04:24+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:24+0800 lvl=info msg=Minner module=xchain genesis=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 last=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 height=0 utxovm=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711
+t=2019-08-28T11:04:24+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:24+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:24+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:25+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:25+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:26+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:26+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:27+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961467000353000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:27+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961467000353000 term=715 pos=2 blockPos=6
+t=2019-08-28T11:04:27+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961467000555000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:27+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961467000555000 term=715 pos=2 blockPos=6
+t=2019-08-28T11:04:27+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=warn msg="IsLastViewConfirmed check failed" module=xchain error=nil
+t=2019-08-28T11:04:27+0800 lvl=warn msg="proposer not changed, bft Newview failed" module=xchain error="last view not confirmed, so should not change view"
+t=2019-08-28T11:04:27+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=trce msg="TDpos getTermProposer result" module=xchain term=715 proposers="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=trce msg="CompeteMaster now xterm infos" module=xchain term=715 pos=2 blockPos=6 un2=1566961467000353000 master=false
+t=2019-08-28T11:04:27+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961467001229000 inittimestamp=1566830669000000000
+t=2019-08-28T11:04:27+0800 lvl=trce msg=getTermPos module=xchain timestamp=1566961467001229000 term=715 pos=2 blockPos=6
+t=2019-08-28T11:04:27+0800 lvl=warn msg="TDpos getTermProposer query from table is nil" module=xchain tp.config.initProposer[1]="[0xc00000ee60 0xc00000ee80 0xc00000ef00]"
+t=2019-08-28T11:04:27+0800 lvl=info msg=Minner module=xchain genesis=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 last=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711 height=0 utxovm=e8ff98b098cd259da25dacd5cf95568938eb49cda82e65f43ee7e74f9ce15711
+t=2019-08-28T11:04:27+0800 lvl=trce msg="Miner type of consensus" module=xchain type=tdpos
+t=2019-08-28T11:04:27+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:27+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:28+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:28+0800 lvl=info msg=Probe module=xchain number of goroutines=35
+t=2019-08-28T11:04:28+0800 lvl=info msg="Got terminate, start to shutting down, please wait..." module=xchain
+t=2019-08-28T11:04:28+0800 lvl=info msg="Got xcmg quit, start to shutting down, please wait..." module=xchain
+t=2019-08-28T11:04:28+0800 lvl=trce msg="stop chain xuper" module=xchain
+t=2019-08-28T11:04:28+0800 lvl=info msg="Stop p2pv2 server!" module=xchain
+t=2019-08-28T11:04:28+0800 lvl=info msg="All modules have stopped!" module=xchain
+t=2019-08-28T11:04:28+0800 lvl=trce msg="Stop HandlerMap" module=xchain

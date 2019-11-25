@@ -1,0 +1,32 @@
+{
+ "module": "proposal",
+ "method": "Propose",
+ "args" : {
+   "min_vote_percent": 51,
+   "stop_vote_height": 450 
+ },
+ "trigger": {
+      "height": 455,
+      "module": "consensus",
+      "method": "update_consensus",
+      "args" : {
+          "name": "tdpos",
+          "config": {
+              "version":"6",
+              "proposer_num":"3",
+              "period":"3000",
+              "alternate_interval":"9000",
+              "term_interval":"9000",
+              "block_num":"5",
+              "vote_unit_price":"1",
+              "init_proposer": {
+					"1":["U9sKwFmgJVfzgWcfAG47dKn1kLQTqeZN3","f3prTg9itaZY6m48wXXikXdcxiByW7zgk","RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph"]
+			  },
+			  "init_proposer_neturl": {
+				  "1": ["/ip4/127.0.0.1/tcp/47103/p2p/QmPYPuXsNXYRfVyr6FsingX8gwFW3FwgJDtuJW1iYugwJn","/ip4/127.0.0.1/tcp/47102/p2p/QmeSjPfpn9D6oa7Kpr4aMR4yUhWTX9vre53PjjqzJFYZYW","/ip4/127.0.0.1/tcp/47104/p2p/QmdnYa1zcJSf3whSgnyd8rjAd259vYXahnZz3ypVyKM5DV"]
+			  },
+			  "bft_config": {}
+        }
+      }
+  }
+}

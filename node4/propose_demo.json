@@ -1,0 +1,26 @@
+{
+  "module": "proposal",
+  "method": "Propose",
+  "args" : {
+    "min_vote_percent": 55,
+    "stop_vote_height": 50 
+  },
+  "trigger": {
+    "height": 55,
+    "module": "consensus",
+    "method": "update_consensus",
+    "args" : {
+      "name": "tdpos",
+      "config": {
+        "proposer_num":"3",
+        "period":"3000",
+        "block_num":"10",
+        "vote_unit_price":"1",
+        "init_proposer": {
+          "1":["Y4TmpfV4pvhYT5W17J7TqHSLo6cqq23x3","RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph","nEm7kPvfYpHn35EWFvh3VjGcwMZRuxtnJ"],
+          "2":["Y4TmpfV4pvhYT5W17J7TqHSLo6cqq23x3","RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph","nEm7kPvfYpHn35EWFvh3VjGcwMZRuxtnJ"]
+        }
+      }
+    }
+  }
+}

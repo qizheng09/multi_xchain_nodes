@@ -1,0 +1,7 @@
+{
+    "module":"proposal",
+    "method": "Thaw",
+    "args" : {
+        "txid":"8fb744fde3c129aca479b900ab47ade364c2e02e49c17df169f349c3a2d698b5"
+     }
+}

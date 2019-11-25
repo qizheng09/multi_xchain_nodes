@@ -1,0 +1,45 @@
+{
+    "version": "1",
+    "predistribution": [
+        {
+            "address": "f3prTg9itaZY6m48wXXikXdcxiByW7zgk",
+            "quota": "100000000000000000000"
+        }
+    ],
+    "maxblocksize": "128",
+    "award": "1000000",
+    "decimals": "8",
+    "award_decay": {
+        "height_gap": 31536000,
+        "ratio": 1
+    },
+    "genesis_consensus": {
+        "name": "tdpos",
+        "config": {
+            "timestamp": "1566830669000000000",
+            "proposer_num": "3",
+            "period": "3000",
+            "alternate_interval": "6000",
+            "term_interval": "9000",
+            "block_num": "20",
+            "vote_unit_price": "1",
+            "init_proposer": {
+                "1": [
+                    "f3prTg9itaZY6m48wXXikXdcxiByW7zgk",
+                    "U9sKwFmgJVfzgWcfAG47dKn1kLQTqeZN3",
+                    "RUEMFGDEnLBpnYYggnXukpVfR9Skm59ph"
+                ]
+            },
+            "init_proposer_neturl": {
+                "1": [
+		    "/ip4/127.0.0.1/tcp/47102/p2p/QmTDb9i1gu3Pwp8XsuaAcxRLWAXZixmRcLCamJG5gsaB1c",
+		    "/ip4/127.0.0.1/tcp/47103/p2p/QmTRv6T1WnSNTjJo45jPT5YY2tCSa3pn6R6vJmbQ8AjRaS",
+		    "/ip4/127.0.0.1/tcp/47104/p2p/QmbGFN5HorToPM5EXUYyWZwNyPRPwYDRc2faXpqTvKHPoG"
+                ]
+            },
+            "bft_config": {
+                "netMsgChanSize": 1000
+            }
+        }
+    }
+}

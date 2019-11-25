@@ -1,0 +1,61 @@
+{
+  "blockchains": [
+    {
+      "name": "xuper",
+      "ledger": {
+        "rootBlockid": "c7171d028af2b58aae6acaf793c469cd41703b9af2f73fa9950e3aec0f914e67",
+        "tipBlockid": "0f9e8f98d07068cca925ac7569a92f7f693ffe3748c9ee702795c1e30c67f4de",
+        "trunkHeight": 89
+      },
+      "utxo": {
+        "latestBlockid": "0f9e8f98d07068cca925ac7569a92f7f693ffe3748c9ee702795c1e30c67f4de",
+        "lockKeyList": null,
+        "utxoTotal": "100000000000089000000",
+        "avgDelay": 0,
+        "unconfirmed": 0,
+        "maxBlockSize": 134217728,
+        "reservedContracts": [],
+        "forbiddenContract": {
+          "moduleName": "",
+          "contractName": "",
+          "methodName": "",
+          "args": {},
+          "resource_limits": null
+        },
+        "newAccountResourceAmount": 0,
+        "irreversibleBlockHeight": 0,
+        "irreversibleSlideWindow": 0,
+        "gasPrice": {
+          "cpu_rate": 0,
+          "mem_rate": 0,
+          "disk_rate": 0,
+          "xfee_rate": 0
+        }
+      },
+      "branchBlockid": [
+        "08c82e10cc7fcc03e2f353ca016ba272e5486ba010a3dc05363c78a9d20f5858",
+        "0f9e8f98d07068cca925ac7569a92f7f693ffe3748c9ee702795c1e30c67f4de",
+        "17f1b98b2ec6c0ad89443ed8aa648055582df7094118d3be0171421bb334b1d7",
+        "22400a4e48177994e4e1e2210eb9db28119c3d65ef6605334918c5bc583a6938",
+        "5aecf6b87b85eb9f6f364ef47217358358519c70928981d07aee823ba56021e8",
+        "9df4fcf57332b3110bca56aad379fb17cb231114e7242de8f7b8e3d6e6fa82dd",
+        "e9f3d293516bf76007de8718ab45579e6a263e26ee4e9bfcebdeae84c7eddc6b",
+        "ea3536a8278315d6c4d12706553fbc61cbf3ab378ccef748e4fdd3a9dcb220b6",
+        "f69698fc01b0cdf713704b2abb4a474c52c099c5d4d286ff9ef1fce8aadfc702"
+      ]
+    }
+  ],
+  "peers": [
+    "127.0.0.1:37104",
+    "127.0.0.1:37103",
+    "127.0.0.1:37102"
+  ],
+  "speeds": {
+    "SumSpeeds": {
+      "GetSystemStatus": 251.57232704402514
+    },
+    "BcSpeeds": {
+      "xuper": {}
+    }
+  }
+}

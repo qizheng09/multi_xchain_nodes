@@ -1,0 +1,21 @@
+{
+ "module": "proposal",
+ "method": "Propose",
+ "args" : {
+   "min_vote_percent": 51,
+   "stop_vote_height": 37
+ },
+ "trigger": {
+      "height": 42,
+      "module": "consensus",
+      "method": "update_consensus",
+      "args" : {
+          "name": "single",
+          "config": {
+              "version": "2",
+              "period": "3000",
+              "miner": "dpzuVdosQrF2kmzumhVeFQZa1aYcdgFpN"
+              }
+        }
+    }
+}

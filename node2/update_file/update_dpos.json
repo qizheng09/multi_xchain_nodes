@@ -1,0 +1,31 @@
+{
+ "module": "proposal",
+ "method": "Propose",
+ "args" : {
+   "min_vote_percent": 51,
+   "stop_vote_height": 20349
+ },
+ "trigger": {
+      "height": 20354,
+      "module": "consensus",
+      "method": "update_consensus",
+      "args" : {
+          "name": "tdpos",
+          "config": {
+              "version":"3",
+              "proposer_num":"3",
+              "period":"3000",
+              "alternate_interval":"3000",
+              "term_interval":"6000",
+              "block_num":"20",
+              "vote_unit_price":"1",
+              "init_proposer": {
+					"1":["VSML7NenZnGZgCEwtbQDKDSrPHhT5wsu6","bg3KLC3YCmvLWBCNAVHGHLfk3qeWEdoD3","dpzuVdosQrF2kmzumhVeFQZa1aYcdgFpN"]
+			  },
+			  "init_proposer_neturl": {
+				  "1": ["/ip4/10.26.29.40/tcp/47101/p2p/QmUqM5tGMZCuHEBcGYbxUHr2yzLdXSBGc5ziPHm68CuqzC","/ip4/10.26.29.40/tcp/47102/p2p/QmZT13hEUCPD6JuwKHkdDNAvwX8p5B2cbE5HqjYCsSQAGB","/ip4/10.26.29.40/tcp/47103/p2p/QmVtVvDoxQPCecwBTaRFixAweSsnKu96uVgArMeBPUsoLV"]
+			  }
+        }
+      }
+  }
+}

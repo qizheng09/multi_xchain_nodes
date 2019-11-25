@@ -1,0 +1,7 @@
+{
+  "module": "tdpos",
+  "method": "vote",
+  "args" : {
+    "candidates":["f3prTg9itaZY6m48wXXikXdcxiByW7zgk"]
+    }
+}
